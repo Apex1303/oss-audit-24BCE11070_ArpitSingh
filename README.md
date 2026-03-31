@@ -1,41 +1,59 @@
-# OSS\_CAPSTONE\_PROJECT\_Arpit
+# Open Source Audit Project
 
-Open Source Audit Project
-Student Details
-Name: ARPIT SINGH
-Registration Number: 24BCE11070
+## Student Details
+- **Name:** Arpit Singh  
+- **Registration Number:** 24BCE11070  
 
-Chosen Software
-Git (Version Control System)
+---
 
-Scripts Overview
-Script 1: System Identity Report
-Displays system information like user, kernel, uptime, and date.
+## Chosen Software
+**Git (Version Control System)**
 
-Script 2: FOSS Package Inspector
-Checks if Git is installed and shows package details.
+---
 
-Script 3: Disk and Permission Auditor
-Analyzes important directories and shows size and permissions.
+## Scripts Overview
 
-Script 4: Log File Analyzer
-Counts occurrences of a keyword in a log file.
+### Script 1: System Identity Report
+Displays basic system information:
+- Current user  
+- Kernel version  
+- System uptime  
+- Current date and time  
 
-Script 5: Open Source Manifesto Generator
-Generates a personalized open-source philosophy statement.
+### Script 2: FOSS Package Inspector
+Checks whether Git is installed and provides:
+- Installation status  
+- Package details  
 
-How to Run Scripts
-Open terminal in Linux
+### Script 3: Disk and Permission Auditor
+Analyzes important directories and displays:
+- Directory sizes  
+- File and folder permissions  
 
-Navigate to folder: cd scripts
+### Script 4: Log File Analyzer
+- Searches for a specific keyword in a log file  
+- Counts the number of occurrences  
 
-Make script executable: chmod +x script1.sh
+### Script 5: Open Source Manifesto Generator
+Generates a personalized statement expressing:
+- Open-source philosophy  
+- Development mindset  
 
-Run script: ./script1.sh
+---
 
-(Repeat for other scripts)
+## How to Run the Scripts
 
-Requirements
-Linux system (Ubuntu recommended)
-Git installed
+1. Open terminal in Linux  
 
+2. Navigate to the scripts folder:
+   ```bash
+   cd scripts
+
+   Make a script executable:
+
+chmod +x script1.sh
+
+Run the script:
+
+./script1.sh
+Repeat the same steps for other scripts.
